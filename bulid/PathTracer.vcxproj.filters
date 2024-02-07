@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\Main.cpp">
+      <Filter>Sources\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Camera.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\EnvironmentMap.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Mesh.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Program.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Quad.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Renderer.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Scene.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Shader.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Texture.cpp">
+      <Filter>Sources\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\loaders\GLTFLoader.cpp">
+      <Filter>Sources\src\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\loaders\Loader.cpp">
+      <Filter>Sources\src\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bbox.cpp">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bvh.cpp">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bvh_translator.cpp">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\split_bvh.cpp">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_impl_sdl.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_stdlib.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imguizmo\ImGuizmo.cpp">
+      <Filter>Sources\thirdparty\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\gl3w\GL\gl3w.c">
+      <Filter>Sources\thirdparty\gl3w\GL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Camera.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Config.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\EnvironmentMap.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Material.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Mesh.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Program.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Quad.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Renderer.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Scene.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Shader.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\ShaderIncludes.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\core\Texture.h">
+      <Filter>Sources\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\loaders\GLTFLoader.h">
+      <Filter>Sources\src\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\loaders\Loader.h">
+      <Filter>Sources\src\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\math\Mat4.h">
+      <Filter>Sources\src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\math\MathUtils.h">
+      <Filter>Sources\src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\math\Vec2.h">
+      <Filter>Sources\src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\math\Vec3.h">
+      <Filter>Sources\src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\math\Vec4.h">
+      <Filter>Sources\src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\tests\ajaxTestScene.h">
+      <Filter>Sources\src\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\tests\boyTestScene.h">
+      <Filter>Sources\src\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\tests\cornellTestScene.h">
+      <Filter>Sources\src\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bbox.h">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bvh.h">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\bvh_translator.h">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\RadeonRays\split_bvh.h">
+      <Filter>Sources\thirdparty\RadeonRays</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imconfig.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_impl_opengl3.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_impl_sdl.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_internal.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imgui_stdlib.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imstb_rectpack.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imstb_textedit.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imgui\imstb_truetype.h">
+      <Filter>Sources\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\imguizmo\ImGuizmo.h">
+      <Filter>Sources\thirdparty\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\oidn\include\OpenImageDenoise\config.h">
+      <Filter>Sources\thirdparty\oidn\include\OpenImageDenoise</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\oidn\include\OpenImageDenoise\oidn.h">
+      <Filter>Sources\thirdparty\oidn\include\OpenImageDenoise</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\oidn\include\OpenImageDenoise\oidn.hpp">
+      <Filter>Sources\thirdparty\oidn\include\OpenImageDenoise</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\stb\stb_image.h">
+      <Filter>Sources\thirdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\stb\stb_image_resize.h">
+      <Filter>Sources\thirdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\stb\stb_image_write.h">
+      <Filter>Sources\thirdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\tinydir\tinydir.h">
+      <Filter>Sources\thirdparty\tinydir</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\tinygltf\tiny_gltf.h">
+      <Filter>Sources\thirdparty\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MyGLSLDemos\1\GLSL-PathTracer\thirdparty\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Sources\thirdparty\tinyobjloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MyGLSLDemos\1\GLSL-PathTracer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\anyhit.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\closest_hit.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\disney.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\envmap.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\globals.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\intersection.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\lambert.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\pathtrace.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\sampling.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\uniforms.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\common\vertex.glsl">
+      <Filter>Sources\src\shaders\common</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\output.glsl">
+      <Filter>Sources\src\shaders</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\preview.glsl">
+      <Filter>Sources\src\shaders</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\tile.glsl">
+      <Filter>Sources\src\shaders</Filter>
+    </None>
+    <None Include="D:\MyGLSLDemos\1\GLSL-PathTracer\src\shaders\tonemap.glsl">
+      <Filter>Sources\src\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{61788DEE-BCDF-3C55-857C-7C18A33C1B15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src">
+      <UniqueIdentifier>{8F59D69E-053C-31D5-B4C5-5BFE56895EC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\core">
+      <UniqueIdentifier>{42FEAEF2-941A-3AF7-9038-496A1DA2FD72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\loaders">
+      <UniqueIdentifier>{0B249A44-502A-38C0-8935-5EA0F5777F50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\math">
+      <UniqueIdentifier>{E1A90FA3-0B04-3887-9F97-3BF707BF1326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\shaders">
+      <UniqueIdentifier>{8FB1A608-6173-385F-AF72-ADF62D800A54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\shaders\common">
+      <UniqueIdentifier>{4EE36452-2024-3921-8580-7D4622D336A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\src\tests">
+      <UniqueIdentifier>{F8103085-B350-3845-968B-FB777E4D128D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty">
+      <UniqueIdentifier>{2E7F91CB-51A0-39B7-A30B-3531FD568077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\RadeonRays">
+      <UniqueIdentifier>{611ED86B-616F-3BBB-A835-585BB9A9E85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\gl3w">
+      <UniqueIdentifier>{08343A91-8882-3A98-8061-BF5BFDE299A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\gl3w\GL">
+      <UniqueIdentifier>{150C7B36-D855-3DDF-ACDD-73578C8B7B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\imgui">
+      <UniqueIdentifier>{8B439955-1A7A-3737-A1AA-BF3233DB351C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\imguizmo">
+      <UniqueIdentifier>{6E291CAC-5FD1-3951-937B-AC03F150D2AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\oidn">
+      <UniqueIdentifier>{5DDF45D0-4AC0-3782-9AFA-83B92BE2E83D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\oidn\include">
+      <UniqueIdentifier>{6FBE1F43-952F-3EE1-95A1-0FAF3D16BB3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\oidn\include\OpenImageDenoise">
+      <UniqueIdentifier>{E5B2347C-F0B0-394A-AC36-4DC2D482245C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\stb">
+      <UniqueIdentifier>{501474C1-3577-3021-9AB0-71B9F545C1DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\tinydir">
+      <UniqueIdentifier>{E32EF694-CD56-313D-B2F1-AF891D7244D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\tinygltf">
+      <UniqueIdentifier>{1CA56AA1-3841-397B-9812-D28313C1681C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\thirdparty\tinyobjloader">
+      <UniqueIdentifier>{C17B42E3-570B-3BA5-A3B1-104601B0D957}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

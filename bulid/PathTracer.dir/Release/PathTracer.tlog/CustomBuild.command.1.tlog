@@ -1,0 +1,10 @@
+^D:\MYGLSLDEMOS\1\GLSL-PATHTRACER\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/MyGLSLDemos/1/GLSL-PathTracer -BD:/MyGLSLDemos/1/GLSL-PathTracer/bulid --check-stamp-file D:/MyGLSLDemos/1/GLSL-PathTracer/bulid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
